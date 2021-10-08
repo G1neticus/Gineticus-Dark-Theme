@@ -1,6 +1,6 @@
 /**
     * @name Gineticus Datk Theme
-    * @version 1.0
+    * @version 1.0.1
     * @description Theme by Gineticus. I also have discord bot: Riply Bot - https://dsc.gg/rypli-bot
     * @author Gineticus
     * @website https://dsc.gg/rypli-bot
@@ -8,20 +8,20 @@
 **/
 :root {
     /* --------- BASE THEME --------- */
-    --blurple-replace: #7289DA;
-    --background-primary: rgb(9, 12, 16);
-    --background-secondary: rgb(13, 17, 23);
-    --background-floating: rgb(22, 27, 34);
+    --blurple-replace:   rgba(130,142,196,1);
+    --background-primary:   rgba(39,42,46,1);
+    --background-secondary:  rgba(29,31,36,1);
+    --background-floating:  rgba(34,37,41,1);
     --background-secondary-alt: var(--background-floating);
-    --background-tertiary:   rgba(7,10,15,1);
-    --background-accent:  rgba(22,42,69,1);
+    --background-tertiary:         rgba(22,22,23,1);
+    --background-accent:   rgba(51,56,61,1);
     --userarea-background: var(--background-tertiary);
     --header-primary: rgb(240, 246, 252);
     --header-secondary: rgb(139, 148, 158);
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
     --channels-default: rgb(139, 148, 158);
-    --channeltextarea-background:   rgba(15,21,31,1);
+    --channeltextarea-background:    rgba(25,27,31,1);
     --voice-color: var(--brand-experiment);
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
     --activity-card-background: #0f0f0f;
@@ -32,11 +32,11 @@
     --background-modifier-hover: rgba(33, 38, 45, 0.26);
     --background-modifier-active: rgba(33, 38, 45, 0.44);
     --background-modifier-selected: rgba(33, 38, 45, 0.52);
-    --background-modifier-accent: rgb(33, 38, 45);
-    --text-link: rgb(88, 166, 255);
-    --text-normal: rgb(201, 209, 217);
-    --text-muted: rgb(139, 148, 158);
-    --deprecated-panel-background: #2a2f29;
+    --background-modifier-accent:   rgb(33, 38, 45);
+    --text-link:  rgba(129,178,235,1);
+    --text-normal:  rgba(214,214,214,1);
+    --text-muted:  rgba(157,157,158,1);
+    --deprecated-panel-background:  rgba(46,46,46,1);
     --deprecated-card-bg: var(--background-secondary);
     --deprecated-card-editable-bg: var(--background-secondary);
     --deprecated-store-bg: #36393f;
@@ -51,21 +51,21 @@
     --background-accent-3: rgb(15, 15, 15, 0.3);
     --background-floating-2: rgba(0, 0, 0, 0.2);
     --border:  0px solid rgb(48, 54, 61);
-    --border-color: rgb(48, 54, 61);
+    --border-color:  rgba(59,60,61,1);
     --blurple-border: 1px solid rgb(31, 47, 71);
     --border-radius: 5px;
     --divide-color: var(--brand-experiment);
-    --brand-experiment: rgb(88, 101, 242);
+    --brand-experiment:      rgba(85,116,242,1);
     --deprecated-quickswitcher-input-background: var(--channeltextarea-background)
 }
 
 .theme-light {
-    --background-secondary: rgb(13, 17, 23);
+    --background-secondary:  rgba(29,31,36,1);
     --header-primary: rgb(240, 246, 252);
     --header-secondary: rgb(139, 148, 158);
     --background-primary: rgb(22, 27, 34);
-    --text-normal: rgb(201, 209, 217);
-    --background-floating: rgb(22, 27, 34);
+    --text-normal:  rgba(214,214,214,1);
+    --background-floating:  rgba(34,37,41,1);
     --background-tertiary: transparent;
     --deprecated-text-input-bg: rgb(7, 10, 16);
 }
